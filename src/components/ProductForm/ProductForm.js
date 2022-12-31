@@ -22,7 +22,7 @@ const ProductForm = ({handleSubmit, currentSize, currentColor, sizes, colors, se
 ProductForm.propTypes = {
     handleSubmit: PropTypes.func.isRequired,
     sizes: PropTypes.array.isRequired,
-    currentSize: PropTypes.object.isRequired,
+    currentSize: PropTypes.string.isRequired,
     setCurrentSize: PropTypes.func.isRequired,
     colors: PropTypes.array.isRequired,
     currentColor: PropTypes.string.isRequired,
